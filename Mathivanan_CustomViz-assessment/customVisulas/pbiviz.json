@@ -1,0 +1,21 @@
+{
+  "visual": {
+    "name": "customVisulas",
+    "displayName": "CustomVisulas",
+    "guid": "customVisulasE9DFC85344EB4101BB4A5D8A07D2BE97",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": { "name": "", "email": "" },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}

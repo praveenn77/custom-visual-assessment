@@ -1,0 +1,44 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Values",
+            "name": "Values",
+            "kind": "Grouping"
+        }
+    ],
+    "objects": {
+      "demoSection": {
+        "displayName": "Demo Section",
+        "properties": {
+          "title": {
+            "displayName": "Title",
+            "type": {
+              "text": true
+            }
+          }, 
+          "subTitle": {
+            "displayName": "Sub Title",
+            "type": {
+              "text": true
+            }
+          }
+        }
+      }
+    },
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "Values"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "privileges": []
+}

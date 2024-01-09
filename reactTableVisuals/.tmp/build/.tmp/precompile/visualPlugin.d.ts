@@ -1,0 +1,4 @@
+import powerbiVisualsApi from "powerbi-visuals-api";
+import IVisualPlugin = powerbiVisualsApi.visuals.plugins.IVisualPlugin;
+declare var reactTableVisuals34949B876CBF44E8B20124F33F741B4E_DEBUG: IVisualPlugin;
+export default reactTableVisuals34949B876CBF44E8B20124F33F741B4E_DEBUG;

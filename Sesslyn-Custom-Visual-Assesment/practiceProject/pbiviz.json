@@ -1,0 +1,21 @@
+{
+  "visual": {
+    "name": "practiceProject",
+    "displayName": "practiceProject",
+    "guid": "practiceProject08AEBD6D9ED94A6DB5EA14734B73D369",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "",
+    "supportUrl": "",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.3.0",
+  "author": { "name": "", "email": "" },
+  "assets": { "icon": "assets/icon.png" },
+  "externalJS": null,
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": [],
+  "version": "1.0.0.0"
+}

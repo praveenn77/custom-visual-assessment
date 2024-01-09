@@ -1,0 +1,54 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Column",
+            "name": "column",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Value",
+            "name": "value",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "demo": {
+            "displayName": "Demo Section",
+            "properties": {
+                "title": {
+                    "displayName": "Title Here",
+                    "type": {
+                        "text": true
+                    }
+                },
+                "subTitle": {
+                    "displayName": "Sub-Title Here",
+                    "type": {
+                        "text": true
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "column"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "value"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "privileges": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "check-palindrome-123",
+  "version": "1.0.3",
+  "description": "Check a String as a Palindrome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sesslyn041215/check-palindrome.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Sesslyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sesslyn041215/check-palindrome/issues"
+  },
+  "homepage": "https://github.com/Sesslyn041215/check-palindrome#readme",
+  "dependencies": {
+    "check-palindrome-123": "^1.0.3"
+  }
+}

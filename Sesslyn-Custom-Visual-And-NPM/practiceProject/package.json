@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@types/d3": "7.4.0",
-    "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "d3": "7.8.5",
     "datatables.net-dt": "^1.13.8",
@@ -27,6 +26,7 @@
   },
   "devDependencies": {
     "@types/datatables.net": "^1.10.28",
+    "@types/react": "^18.2.47",
     "@typescript-eslint/eslint-plugin": "^5.59.11",
     "eslint": "^8.42.0",
     "eslint-plugin-powerbi-visuals": "^0.8.1",

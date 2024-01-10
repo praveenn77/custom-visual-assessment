@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "datatables.net": "^1.13.8",
+    "datatables.net-dt": "^1.13.8",
+    "jquery": "^3.7.1",
+    "powerbi-visuals-api": "^5.7.0",
+    "powerbi-visuals-utils-formattingmodel": "^6.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/datatables.net": "^1.10.28"
+  }
+}

@@ -19,6 +19,7 @@ import { FormattingSettingsService } from "powerbi-visuals-utils-formattingmodel
 import { VisualFormattingSettingsModel } from "./settings";
 
 import "../style/visual.less";
+import DataTables from "datatables.net";
 
 export class Visual implements IVisual {
   private host: IVisualHost;

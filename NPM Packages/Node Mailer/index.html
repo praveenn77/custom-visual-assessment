@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node Mailer</title>
+  </head>
+  <body>
+    <form action="submit" id="email-form">
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="description">Description</label>
+      <textarea
+        name="description"
+        id="description"
+        cols="30"
+        rows="10"
+      ></textarea>
+
+      <button type="submit">Submit Details</button>
+    </form>
+    <script>
+      const emailForm = document.getElementById("email-form");
+
+      emailForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const emailInput = document.getElementById("email");
+        const descriptionInput = document.getElementById("description");
+
+        const emailValue = emailInput.value;
+        const descriptionValue = descriptionInput.value;
+
+        window.location.href = `http://127.0.0.1:5500/Node%20Mailer/email.html?email=${encodeURIComponent(
+          emailValue
+        )}&description=${encodeURIComponent(descriptionValue)}`;
+      });
+    </script>
+  </body>
+</html>

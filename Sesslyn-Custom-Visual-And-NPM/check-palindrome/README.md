@@ -1,0 +1,1 @@
+Publich a package in npm - Check whethere the string is a palindrome.

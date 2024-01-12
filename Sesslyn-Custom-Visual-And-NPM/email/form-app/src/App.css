@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  font-family: "poppins";
+  height: 100vh;
+  background-image: linear-gradient(#d8c7ff, #19006c);
+}
+.container {
+  width: 400px;
+  margin: auto;
+  margin-top: 110px;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+  height: 400px;
+}
+
+.container h2 {
+  font-size: 27px;
+  font-weight: 400;
+  color: #553f9a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container button {
+  margin: auto;
+  width: 200px;
+  height: 45px;
+  background: #553f9a;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.container .index {
+  margin: auto;
+  font-size: 18px;
+}
+.container .reset {
+  margin: auto;
+  width: 180px;
+  background: #553f9a;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  height: auto;
+}
+
+.container .result-good {
+  font-size: 24px;
+  text-align: center;
+}
+.container img {
+  height: 270px;
+  width: 380px;
+}
+form{
+  margin-top: 30px;
+}
+label {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+input {
+  display: block;
+  margin-left: 100px;
+  padding: 5px 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
